@@ -1,13 +1,15 @@
+/*These are text fonts used throughout the pages*/
 @import url("https://fonts.google.com/specimen/Rubik?vfonly=true");
 @import url("https://fonts.google.com/specimen/Edu+SA+Beginner?classification=Handwriting&vfonly=true");
-@import url("https://fonts.google.com/specimen/Grandstander?classification=Handwriting&vfonly=true");
 @import url("https://fonts.google.com/specimen/Antonio?classification=Display&vfonly=true");
 
+/*styling the navigation bar at the top of all pages with the id selector*/
 #navbar {
     height: 50px;
     background: hotpink;
 }
 
+/*styling the div element within the navbar element*/
 #navbar div {
     display: inline-block;
     position: absolute;
@@ -16,22 +18,20 @@
     font-size: 20px;
     color: white;
 }
-
 #navbar ul {
     position: absolute;
     right: 5px;
     color: white;
 }
-
 #navbar ul li {
     display: inline-block;
 }
-
 #navbar ul li a {
     color: white;
     padding: 5px;
 }
 
+/*styling all h1 elements*/
 h1 {
     font-family: "Antonio", sans-serif;
     text-align: center;
@@ -39,12 +39,12 @@ h1 {
     color: darkblue;
 }
 
+/*styling with the class selector*/
 .background {
     background: url(./images/pinkbkg.jpg);
     background-size: cover;
     height: 300vh;
 }
-
 .statement {
     font-family: "Rubik", sans-serif;
     font-style: italic;
@@ -53,7 +53,6 @@ h1 {
     color: lightcoral;
     padding-top: 35px;
 }
-
 .mission {
     font-family: "Edu SA Beginner", cursive;
     font-size: 23px;
@@ -61,7 +60,6 @@ h1 {
     color: black;
     padding: 35px;
 }
-
 .photo {
     display: block;
     margin-left: auto;
@@ -69,6 +67,7 @@ h1 {
     width: 25%;
 }
 
+/*styling all h2 elements*/
 h2 {
     font-family: "Antonio", sans-serif;
     text-align: center;
@@ -76,6 +75,7 @@ h2 {
     color: midnightblue;
 }
 
+/*styling all ul elements*/
 ul {
     list-style-position: inside;
     text-align: center;
@@ -84,6 +84,7 @@ ul {
     font-family: "Edu SA Beginner", cursive;
 }
 
+/*styling with the class selector*/
 .table {
     margin-left: auto;
     margin-right: auto;
@@ -92,10 +93,12 @@ ul {
     color: black;
 }
 
+/*styling the table elements*/
 table, th, td {
     border: 1px solid;
 }
 
+/*styling the text form*/
 input[type=text] {
     padding: 5px 9px;  
     margin: 9px 0px; 
